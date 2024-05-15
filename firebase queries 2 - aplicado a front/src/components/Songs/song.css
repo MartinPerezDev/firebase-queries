@@ -1,0 +1,35 @@
+.cancion {
+  width: 16%;
+  margin: 4%;
+  height: 270px;
+  border-radius: 5px;
+  background-color: rgb(30, 30, 30);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transform: scale(1);
+  transition: transform 0.5s ease-in-out;
+  text-decoration: none;
+  color: rgb(215, 215, 215);
+}
+.cancion:hover {
+  color: white;
+  transform: scale(1.2);
+  box-shadow: 4px 10px 38px 7px rgba(14, 219, 171, 0.75);
+  -webkit-box-shadow: 4px 10px 38px 7px rgba(14, 219, 171, 0.75);
+  -moz-box-shadow: 4px 10px 38px 7px rgba(14, 219, 171, 0.75);
+  transition: transform 0.2s ease-in-out;
+}
+.detalles-cancion {
+  padding: 0 10px;
+}
+.imagen-cancion {
+  width: 80%;
+}
+.nombre-cancion {
+  font-weight: 500;
+}
+.artista-cancion {
+  font-weight: 300;
+  font-style: italic;
+}

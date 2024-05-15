@@ -1,0 +1,28 @@
+.filtro-productos{
+  width: 30%;
+  
+}
+.caja-filtro{
+  display: flex;
+  flex-wrap: wrap;
+}
+.boton-filtro{
+  color: rgb(190, 190, 190);
+  background-color: rgb(44, 44, 44);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 10px;
+  padding: 10px 25px;
+  border: 2px solid rgb(63, 63, 63);
+  border-radius: 5px;
+}
+.boton-filtro:hover{
+  cursor: pointer;
+  color: white;
+  border: 2px solid rgb(115, 115, 115);
+}
+.rango{
+  width: 90%;
+  accent-color: rgb(13, 185, 111);
+}

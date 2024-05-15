@@ -1,0 +1,16 @@
+.detail-song{
+  display: flex;
+}
+.content-detail{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-detail{
+  width: 80%;
+}
+.text-detail{
+  width: 80%;
+  text-align: start;
+}
